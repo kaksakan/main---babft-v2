@@ -1,0 +1,208 @@
+if game.GameId == 537413528 then
+
+local Library = loadstring(game:HttpGet("https://raw.githubusercontent.com/xHeptc/Kavo-UI-Library/main/source.lua"))()
+
+local Window = Library.CreateLib("Kak.Hub Babft Script", "DarkTheme")
+
+local Tab = Window:NewTab("Main")
+local Section = Tab:NewSection("Main")
+
+Section:NewToggle("Auto Farm Gold (Tweening)", "Click to start Auto Farm Gold", function(state)
+    if state then
+        game:GetService("StarterGui"):SetCore("SendNotification", { 
+        Title = "Farm Has Been Started";
+        Text  = "";
+        Icon  = "rbxthumb://type=Asset&id=17328930447&w=150&h=150"})
+    Duration = 10;
+
+
+    while true do
+game.Players.LocalPlayer.Character.HumanoidRootPart.CFrame = CFrame.new(-66.93753051757812, 54.07984924316406, -202.34837341308594)
+wait(3)
+local TS = game:GetService("TweenService")
+local tween = TS:Create(game.Players.LocalPlayer.Character.HumanoidRootPart, TweenInfo.new(3), {CFrame = CFrame.new(-51.265686, 116.699989, 1360.89209, 1, 0, 0, 0, 1, 0, 0, 0, 1)})
+tween:Play()
+wait(2.5)
+local TS = game:GetService("TweenService")
+local tween = TS:Create(game.Players.LocalPlayer.Character.HumanoidRootPart, TweenInfo.new(3), {CFrame = CFrame.new(-82.2632675, 94.6002884, 2103.3916, 1, 0, 0, 0, 1, 0, 0, 0, 1)})
+tween:Play()
+wait(2.5)
+local TS = game:GetService("TweenService")
+local tween = TS:Create(game.Players.LocalPlayer.Character.HumanoidRootPart, TweenInfo.new(3), {CFrame = CFrame.new(-30.0663033, 89.2009506, 2901.89209, -1, 0, 0, 0, 1, 0, 0, 0, -1)})
+tween:Play()
+wait(2.5)
+local TS = game:GetService("TweenService")
+local tween = TS:Create(game.Players.LocalPlayer.Character.HumanoidRootPart, TweenInfo.new(3), {CFrame = CFrame.new(-58.45632553100586, 109.48786926269531, 3639.55322265625)})
+tween:Play()
+wait(2.5)
+local TS = game:GetService("TweenService")
+local tween = TS:Create(game.Players.LocalPlayer.Character.HumanoidRootPart, TweenInfo.new(3), {CFrame = CFrame.new(-54.91960525512695, 122.78746795654297, 4434.279296875)})
+tween:Play()
+wait(2.5)
+local TS = game:GetService("TweenService")
+local tween = TS:Create(game.Players.LocalPlayer.Character.HumanoidRootPart, TweenInfo.new(3), {CFrame = CFrame.new(-56.869625091552734, 122.98420715332031, 5188.2451171875)})
+tween:Play()
+wait(2.5)
+local TS = game:GetService("TweenService")
+local tween = TS:Create(game.Players.LocalPlayer.Character.HumanoidRootPart, TweenInfo.new(3), {CFrame = CFrame.new(-55.35166931152344, 78.49302673339844, 5977.75878906251)})
+tween:Play()
+wait(2.5)
+local TS = game:GetService("TweenService")
+local tween = TS:Create(game.Players.LocalPlayer.Character.HumanoidRootPart, TweenInfo.new(3), {CFrame = CFrame.new(-54.54069519042969, 81.48761749267578, 6744.5805664062)})
+tween:Play()
+wait(2.5)
+local TS = game:GetService("TweenService")
+local tween = TS:Create(game.Players.LocalPlayer.Character.HumanoidRootPart, TweenInfo.new(3), {CFrame = CFrame.new(-49.103031158447266, 108.4627456665039, 7506.19775390625)})
+tween:Play()
+wait(2.5)
+local TS = game:GetService("TweenService")
+local tween = TS:Create(game.Players.LocalPlayer.Character.HumanoidRootPart, TweenInfo.new(3), {CFrame = CFrame.new(-57.292232513427734, 94.42498779296875, 8288.7177734375)})
+tween:Play()
+wait(2.5)
+local TS = game:GetService("TweenService")
+local tween = TS:Create(game.Players.LocalPlayer.Character.HumanoidRootPart, TweenInfo.new(3), {CFrame = CFrame.new(-113.37661, 163.600052, 8819.49023, 0, 0, -1, 0, 1, 0, 1, 0, 0)})
+tween:Play()
+wait(2.5)
+local TS = game:GetService("TweenService")
+local tween = TS:Create(game.Players.LocalPlayer.Character.HumanoidRootPart, TweenInfo.new(3), {CFrame = CFrame.new(-55.66902542114258, -356.10211181640625, 9494.42578125)})
+tween:Play()
+wait(2.5)
+    
+
+    
+    wait(25)
+    
+    game:GetService("StarterGui"):SetCore("SendNotification", { 
+        Title = "Restarting";
+        Text  = "Restarting Tween Farm";
+        Icon  = "rbxthumb://type=Asset&id=17328930447&w=150&h=150"})
+    Duration = 10;-- 10 saniye bekle
+    
+    -- Döngü başa dönecek ve işlem tekrarlanacak
+end
+    else
+        game:GetService("TeleportService"):TeleportToPlaceInstance(game.PlaceId, game.JobId, game.Players.LocalPlayer)
+    end
+end)
+
+Section:NewToggle("Auto Farm Gold (Teleporting)", "Click to start Auto Farm Gold", function(state)
+    if state then
+        game:GetService("StarterGui"):SetCore("SendNotification", { 
+        Title = "Farm Has Been Started";
+        Text  = "";
+        Icon  = "rbxthumb://type=Asset&id=17328930447&w=150&h=150"})
+    Duration = 10;
+
+
+        while true do
+        game.Players.LocalPlayer.Character.HumanoidRootPart.CFrame = CFrame.new(-51.5656433, 65.0000458, 1369.09009, 1, 0, 0, 0, 1, 0, 0, 0, 1)
+        wait(1.2)
+        game.Players.LocalPlayer.Character.HumanoidRootPart.CFrame = CFrame.new(-51.5656433, 65.0000458, 2139.09009, 1, 0, 0, 0, 1, 0, 0, 0, 1)
+        wait(1.2)
+        game.Players.LocalPlayer.Character.HumanoidRootPart.CFrame = CFrame.new(-51.5656433, 65.0000458, 2909.09009, 1, 0, 0, 0, 1, 0, 0, 0, 1)
+        wait(1.2)
+        game.Players.LocalPlayer.Character.HumanoidRootPart.CFrame = CFrame.new(-51.5656433, 65.0000458, 3679.09009, 1, 0, 0, 0, 1, 0, 0, 0, 1)
+        wait(1.2)
+        game.Players.LocalPlayer.Character.HumanoidRootPart.CFrame = CFrame.new(-51.5656433, 65.0000458, 4449.08984, 1, 0, 0, 0, 1, 0, 0, 0, 1)
+        wait(1.2)
+        game.Players.LocalPlayer.Character.HumanoidRootPart.CFrame = CFrame.new(-53.5669785, 72.6005325, 5218.14209, 1, 0, 0, 0, 1, 0, 0, 0, 1)
+        wait(1.2)
+        game.Players.LocalPlayer.Character.HumanoidRootPart.CFrame = CFrame.new(-51.5656433, 65.0000458, 5989.08984, 1, 0, 0, 0, 1, 0, 0, 0, 1)
+        wait(1.2)
+        game.Players.LocalPlayer.Character.HumanoidRootPart.CFrame = CFrame.new(-51.5656433, 65.0000458, 6759.08984, 1, 0, 0, 0, 1, 0, 0, 0, 1)
+        wait(1.2)
+        game.Players.LocalPlayer.Character.HumanoidRootPart.CFrame = CFrame.new(-51.5656433, 65.0000458, 7529.08984, 1, 0, 0, 0, 1, 0, 0, 0, 1)
+        wait(1.2)
+        game.Players.LocalPlayer.Character.HumanoidRootPart.CFrame = CFrame.new(-51.5656433, 65.0000458, 8299.08984, 1, 0, 0, 0, 1, 0, 0, 0, 1)
+        wait(1.2)
+        game.Players.LocalPlayer.Character.HumanoidRootPart.CFrame = CFrame.new(-55.7065125, -358.739624, 9492.35645, 0, 0, -1, 0, 1, 0, 1, 0, 0)
+        
+        wait(25)  -- 10 saniye bekle
+        
+        game:GetService("StarterGui"):SetCore("SendNotification", { 
+        Title = "Restarting";
+        Text  = "Restarting Teleport Farm";
+        Icon  = "rbxthumb://type=Asset&id=17328930447&w=150&h=150"})
+    Duration = 10;-- 10 saniye bekle
+    end
+    else
+        game:GetService("TeleportService"):TeleportToPlaceInstance(game.PlaceId, game.JobId, game.Players.LocalPlayer)
+    end
+end)
+
+local Tab = Window:NewTab("Player")
+local Section = Tab:NewSection("Player")
+
+Section:NewTextBox("WalkSpeed", "Change your WalkSpeed", function(Value)
+    game.Players.LocalPlayer.Character.Humanoid.WalkSpeed = Value
+end)
+
+Section:NewTextBox("JumpPower", "Change your JumpPower", function(Value)
+    game.Players.LocalPlayer.Character.Humanoid.JumpPower = Value
+end)
+
+   
+local Tab = Window:NewTab("Teleporters")
+local Section = Tab:NewSection("Teleporters")
+
+Section:NewButton("Finish", "Click to teleport to the finish", function()
+    game.Players.LocalPlayer.Character.HumanoidRootPart.CFrame = CFrame.new(-58.78835678100586, -360.4061584472656, 9381.3095703125)
+end)
+
+Section:NewButton("WaterFall Secret Place", "Click to teleport to the Secret Door", function()
+    game.Players.LocalPlayer.Character.HumanoidRootPart.CFrame = CFrame.new(120.60749053955078, -9.902031898498535, 1171.980224609375)
+end)
+
+Section:NewButton("White Team", "Click to teleport to the White Team", function()
+    game.Players.LocalPlayer.Character.HumanoidRootPart.CFrame = CFrame.new(-49.689186096191406, -9.70197582244873, -497.576416015625)
+end)
+
+Section:NewButton("Black Team", "Click to teleport to the Black Team", function()
+    game.Players.LocalPlayer.Character.HumanoidRootPart.CFrame = CFrame.new(-482.0794982910156, -9.701977729797363, -69.1973876953125)
+end)
+
+Section:NewButton("Red Team", "Click to teleport to the Red Team", function()
+    game.Players.LocalPlayer.Character.HumanoidRootPart.CFrame = CFrame.new(373.3624572753906, -9.70197582244873, -64.62517547607422)
+end)
+
+Section:NewButton("Blue Team", "Click to teleport to the Blue Team", function()
+    game.Players.LocalPlayer.Character.HumanoidRootPart.CFrame = CFrame.new(375.739990234375, -9.70197582244873, 300.95587158203125)
+end)
+
+Section:NewButton("Pink Team", "Click to teleport to the Pink Team", function()
+    game.Players.LocalPlayer.Character.HumanoidRootPart.CFrame = CFrame.new(375.04150390625, -9.70197582244873, 646.9223022460938)
+end)
+
+Section:NewButton("Yellow Team", "Click to teleport to the Yellow Team", function()
+    game.Players.LocalPlayer.Character.HumanoidRootPart.CFrame = CFrame.new(-482.97393798828125, -9.701977729797363, 640.9601440429688)
+end)
+
+Section:NewButton("Green Team", "Click to teleport to the Green Team", function()
+    game.Players.LocalPlayer.Character.HumanoidRootPart.CFrame = CFrame.new(-481.65618896484375, -9.701977729797363, 293.4216003417969)
+end)
+
+local Tab = Window:NewTab("Others")
+local Section = Tab:NewSection("Credits and Others")
+
+Section:NewLabel("By Kaksakan")
+
+Section:NewButton("My Discord Server", "Click to copy my Discord Server link", function()
+    setclipboard("https://discord.gg/tNf6Fsvk")
+    print(Copied)
+end)
+
+Section:NewKeybind("On - Off Uİ", "KeybindInfo", Enum.KeyCode.F, function()
+	Library:ToggleUI()
+end)
+
+Section:NewButton("Mobile Keybord", "Use this if u are on MOBİLE", function()
+    loadstring(game:HttpGet("https://raw.githubusercontent.com/advxzivhsjjdhxhsidifvsh/mobkeyboard/main/main.txt", true))()
+
+end)
+
+else
+    game:GetService("StarterGui"):SetCore("SendNotification",{
+        Title = "Babft Script",
+        Text = "Please join the Babft"
+    })
+end
